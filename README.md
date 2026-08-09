@@ -36,7 +36,7 @@ Location   : Chattogram, Bangladesh 🇧🇩
 Education  : BSc in CSE — CUET (Chittagong University of Engineering & Technology), 3rd Year
 Experience : Full Stack Developer Intern @ Cypher Bangladesh (3 months)
 Email      : md.parvez.hasan.dev@gmail.com
-Portfolio  : https://my-portfolio-orpin-alpha-41.vercel.app
+Portfolio  : https://portfolio-sandy-eight-rzxhn4f702.vercel.app
 Status     : 🟢 Open to Work — Seeking Junior / Entry-Level Full Stack Developer roles
 ```
 
