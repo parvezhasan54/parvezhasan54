@@ -43,7 +43,7 @@
 
 I'm a **3rd-year CSE student at CUET** and a self-taught **Full Stack Developer** who turns real-world problems into **secure, scalable, production-ready applications**.
 
-I care about clean architecture, well-designed REST APIs, role-based access control, real payment integrations, and interfaces that feel genuinely good to use.
+I learn by building complete, end-to-end products: REST APIs, databases, payment flows and polished role-based dashboards, rather than following tutorials.
 
 ```yaml
 name       : Md Parvez Hasan
@@ -100,32 +100,59 @@ status     : 🟢 Open to Junior / Entry-Level Full Stack roles
 
 ## 🚀 Featured Projects
 
-### 🏙️ Nagar Sheba · City Complaint & Service Request Platform
+<div align="center">
 
-> **Flagship project.** Report it. Track it. See it fixed.
+| Project | What it solves | Core stack | Links |
+| :--- | :--- | :--- | :--- |
+| **🏙️ Nagar Sheba** <br/> <sub>Flagship</sub> | Citizens report city problems and track them to resolution, with SLA enforcement and online payments | Next.js 16 · Express 5 · Prisma · PostgreSQL · Redis | [Live](https://nagar-sheba-online.onrender.com) · [API](https://nagar-sheba.onrender.com) |
+| **🏠 RentNest** | Tenants and landlords connect through a rental marketplace with secure Stripe payments | Next.js · Express · Prisma · PostgreSQL · Stripe | [Live](https://rentnest-a5.onrender.com) |
+| **🚚 ZapShift** | Parcel booking, delivery tracking and rider coordination for a courier service | React · Express · MongoDB · Firebase · JWT | [Live](https://simple-firebase-auth-c54cc.web.app) |
+
+</div>
+
+<br/>
+
+### 🏙️ Nagar Sheba
+
+> **City Complaint & Service Request Platform.** Report it. Track it. See it fixed.
+
+A civic services platform with three roles: **citizens** submit and track requests, **staff** handle them, and **admins** oversee the whole system.
 
 <table>
 <tr>
-<td width="100%" valign="top">
+<td width="50%" valign="top">
 
-- 👥 **3 roles** (Citizen, Staff, Admin) enforced at route, layout and UI level, plus a database re-check on every API request
-- 🔐 JWT with **rotating refresh tokens**, Google Sign-In, email OTP, and single-flight token refresh on the client
-- 💳 **SSLCommerz + bKash** with server-side verification, idempotent callbacks, automatic refunds and **PDF receipts**
-- ⏱️ Request lifecycle with **SLA deadlines**, overdue flagging and auto-close via a 15-minute cron job
-- 🧭 4-step request wizard, geolocation, live map preview and upload progress
-- 📊 Admin **Recharts analytics**, CSV export and a full **audit log**
-- 🌗 Dark mode, URL-synced filters, skeleton loaders, SEO + ISR
+#### 🧭 How it works
 
-**Stack:** `Next.js 16` · `React 19` · `TypeScript` · `Tailwind v4` · `TanStack Query/Form` · `Express 5` · `Prisma 7` · `PostgreSQL` · `Redis` · `Zod` · `Cloudinary`
+1. A citizen submits a request through a **4-step wizard** with geolocation, a live map preview and upload progress.
+2. The request moves through a lifecycle: Submitted, Assigned, In Progress, Resolved, Closed. A resolved request can be reopened.
+3. Every request carries an **SLA deadline**. Overdue ones are flagged automatically.
+4. A **15-minute cron job** auto-closes eligible requests.
+5. Citizens pay fees via SSLCommerz or bKash and receive a **PDF receipt**.
+6. Admins monitor everything through **Recharts dashboards**, CSV export and a full audit log.
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚙️ Engineering highlights
+
+- 🔌 **58-endpoint** TypeScript REST API with a route, validation, controller and service structure
+- 🔐 JWT with **rotating refresh tokens**, Google Sign-In, email OTP and single-flight token refresh on the client
+- 👥 **Three-role access control** enforced at route, layout and UI level, plus a **database re-check on every API request**
+- 💳 SSLCommerz and bKash with **server-side verification, idempotent callbacks** and automatic refunds
+- 🛡️ **Redis** rate limiting across the whole API surface
+- 🌗 Dark mode, URL-synced filters, skeleton loaders, SEO and ISR
+
+</td>
+</tr>
+</table>
+
+**Stack:** `Next.js 16` · `React 19` · `TypeScript` · `Tailwind v4` · `TanStack Query/Form` · `shadcn/ui` · `Express 5` · `Prisma 7` · `PostgreSQL` · `Redis` · `Zod` · `Recharts` · `Cloudinary` · `SSLCommerz` · `bKash`
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-46E3B7?style=for-the-badge)](https://nagar-sheba-online.onrender.com)
 [![Live API](https://img.shields.io/badge/⚙️_Live_API-1F6FEB?style=for-the-badge)](https://nagar-sheba.onrender.com)
 [![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/Nagar-Sheba-Frontend)
 [![Backend](https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/Nagar-Sheba)
-
-</td>
-</tr>
-</table>
 
 <details>
 <summary><b>🧩 View architecture and request lifecycle</b></summary>
@@ -155,46 +182,120 @@ stateDiagram-v2
 
 </details>
 
+<details>
+<summary><b>🔥 Hardest problems I solved</b></summary>
+
 <br/>
+
+- **Authentication:** JWT with rotating refresh tokens, Google Sign-In and email OTP, with three-role access control verified against the database so stale tokens never keep old permissions.
+- **Payments:** SSLCommerz and bKash callbacks can arrive more than once. Making them idempotent and verifying them server-side prevents double charges and double refunds.
+- **Lifecycle and SLA:** Modeling the request lifecycle with deadlines, overdue flagging and a 15-minute cron job that auto-closes requests.
+- **Abuse protection:** Redis-backed rate limiting across a 58-endpoint API.
+
+</details>
+
+<br/>
+
+### 🏠 RentNest
+
+> **Rental Property Marketplace.** Find it. Request it. Pay securely.
+
+A marketplace that connects tenants and landlords, with an admin layer for moderation, deployed as **two independent services** (a Next.js frontend and an Express/Prisma backend on separate origins).
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🏠 RentNest
-> Rental property marketplace
+#### 🧭 How it works
 
-**Stack:** `Next.js` · `TypeScript` · `Express` · `PostgreSQL` · `Prisma` · `Stripe` · `Cloudinary`
-
-- 🔍 Tenants search, filter, save, request rentals and pay via **Stripe Checkout**
-- 🏘️ Landlords manage listings with drag-and-drop image uploads and approve or reject requests
-- 🛡️ Admin moderation: user bans, listing take-downs, request oversight
-- 🔁 Next.js rewrite proxy to handle cross-origin cookies cleanly
-
-[![Live](https://img.shields.io/badge/🌐_Live-46E3B7?style=flat-square)](https://rentnest-a5.onrender.com)
-[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=flat-square&logo=github)](https://github.com/parety308/RentNest_A5)
-[![Backend](https://img.shields.io/badge/📂_Backend-181717?style=flat-square&logo=github)](https://github.com/parety308/RentNest_A4)
+- 🔍 **Tenants** browse and filter listings, save favorites, submit rental requests, pay through **Stripe Checkout** and leave reviews.
+- 🏘️ **Landlords** create listings with drag-and-drop image uploads and approve or reject incoming rental requests.
+- 🛡️ **Admins** manage users, ban accounts, take down listings and oversee all rental requests from one dashboard.
 
 </td>
 <td width="50%" valign="top">
 
-### 🚚 ZapShift
-> Courier & parcel delivery platform
+#### ⚙️ Engineering highlights
 
-**Stack:** `React` · `Node.js` · `Express` · `MongoDB` · `Firebase` · `JWT` · `Tailwind`
-
-- 📦 Dynamic pricing, online payment and 6-digit tracking IDs
-- 🚴 Rider workflows: pickup, delivery, **OTP-based confirmation**, earnings
-- 🗺️ Admin tools for rider assignment, inter-district routing and warehouse oversight
-- 📈 Role-based dashboards with Recharts
-
-[![Live](https://img.shields.io/badge/🌐_Live-46E3B7?style=flat-square)](https://simple-firebase-auth-c54cc.web.app)
-[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=flat-square&logo=github)](https://github.com/parety308/Zap_Shift_Client)
-[![Backend](https://img.shields.io/badge/📂_Backend-181717?style=flat-square&logo=github)](https://github.com/parety308/Zap_Shift_Server)
+- 🍪 **Cross-origin auth cookies** solved by proxying browser requests through a Next.js rewrite and forwarding cookies on server-side requests
+- ⏳ JWT access-token expiry kept shorter than refresh-token expiry so the **silent-refresh flow in middleware** never breaks
+- 🔀 An **environment-aware API client**: relative `/api` in the browser, absolute backend URL during SSR and static generation
+- 🔔 **Stripe webhook signature verification** in production
 
 </td>
 </tr>
 </table>
+
+**Stack:** `Next.js 16` · `React 19` · `TypeScript` · `Tailwind v4` · `shadcn/ui` · `React Hook Form` · `Zod` · `Framer Motion` · `Express 5` · `Prisma` · `PostgreSQL` · `JWT` · `Stripe` · `Cloudinary`
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-46E3B7?style=for-the-badge)](https://rentnest-a5.onrender.com)
+[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/RentNest_A5)
+[![Backend](https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/RentNest_A4)
+
+<details>
+<summary><b>🔭 What I'd build next</b></summary>
+
+<br/>
+
+- In-app messaging between landlords and tenants
+- Map-based property search and filtering
+- Additional payment methods beyond Stripe
+- An automated end-to-end test suite for the rental request and payment flow
+
+</details>
+
+<br/>
+
+### 🚚 ZapShift
+
+> **Courier & Parcel Delivery Service.** Book it. Track it. Deliver it.
+
+A delivery platform that covers parcel booking, online payment and live status updates, with coordinated dashboards for customers, riders and admins.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🧭 How it works
+
+- 📦 Customers book a parcel and pay online. **Pricing is calculated dynamically** from parcel type, weight and whether delivery is inside or outside the city. Each parcel gets a 6-digit tracking ID.
+- 🚴 **Riders** collect and deliver parcels, update status and confirm both pickup and delivery with an **OTP**.
+- 🗺️ **Admins** assign riders, manage inter-district routing and oversee warehouse operations.
+- 📈 Role-based dashboards with Recharts.
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚙️ Engineering highlights
+
+- 🔄 An **8-stage parcel lifecycle** (unpaid, paid, pickup, in-transit, delivered and more) kept in sync across three dashboards
+- 💰 **Rider earnings logic** that differs by route: 80% for in-city and 60% for outside-city deliveries
+- 🧮 **Dynamic pricing rules** based on parcel type, weight and delivery zone
+- 🔐 Firebase Authentication combined with a JWT-secured API
+
+</td>
+</tr>
+</table>
+
+**Stack:** `React` · `React Router` · `Tailwind CSS` · `DaisyUI` · `TanStack Query` · `Recharts` · `Node.js` · `Express` · `MongoDB` · `Firebase Auth` · `JWT`
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-46E3B7?style=for-the-badge)](https://simple-firebase-auth-c54cc.web.app)
+[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/Zap_Shift_Client)
+[![Backend](https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/Zap_Shift_Server)
+
+<details>
+<summary><b>🔭 What I'd build next</b></summary>
+
+<br/>
+
+- Live map-based rider tracking
+- SMS and push notifications on status changes
+- Automated rider assignment based on proximity and load
+- A customer support and dispute-resolution flow
+
+</details>
+
+<br/>
 
 <div align="center">
 
@@ -231,14 +332,10 @@ stateDiagram-v2
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=parety308&theme=tokyo-night&bg_color=0D1117&hide_border=true&area=true&color=58A6FF&line=1F6FEB&point=FFFFFF"/>
 
-</div>
-
 <br/>
 
-## 🏆 Trophies
+<img src="https://github-profile-trophy.vercel.app/?username=parety308&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7"/>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=parety308&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7"/>
 </div>
 
 <br/>
