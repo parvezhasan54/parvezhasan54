@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="./Banner-1.png" alt="Md Parvez Hasan - Full Stack Developer" width="100%"/>
+<img src="./Banner.png" alt="Md Parvez Hasan - Full Stack Developer" width="100%"/>
 
 <br/>
 
 # Md Parvez Hasan
 
-### Full Stack Developer &nbsp;
+### Full Stack Developer &nbsp;|&nbsp; Software Engineer
 
 <a href="https://github.com/parety308">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=700&height=45&lines=Building+secure%2C+production-ready+web+apps;Next.js+%7C+React+%7C+TypeScript+%7C+Node.js;Express+%7C+Prisma+%7C+PostgreSQL+%7C+MongoDB;Open+to+Junior+%2F+Full+Stack+roles+%F0%9F%9A%80" alt="Typing SVG"/>
@@ -99,14 +99,12 @@ I'm currently looking for a **Junior / Entry-Level Full Stack Developer** role.
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=parety308&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="GitHub stats: contributions"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=parety308&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="GitHub stats: contributions"/>
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parety308&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF" alt="Most used languages"/>
 
 <img src="https://streak-stats.demolab.com/?user=parety308&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="Contribution streak"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=parety308&theme=tokyo-night&bg_color=0D1117&hide_border=true&area=true&color=58A6FF&line=1F6FEB&point=FFFFFF" alt="Contribution activity graph"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=parety308&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub trophies"/>
+<img src="https://ghchart.rshah.org/58A6FF/parety308" alt="Contribution heatmap"/>
 
 </div>
 
