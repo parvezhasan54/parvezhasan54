@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./Banner.png" alt="Md Parvez Hasan - Full Stack Developer" width="100%"/>
+<img src="./Banner-1.png" alt="Md Parvez Hasan - Full Stack Developer" width="100%"/>
 
 <br/>
 
@@ -8,7 +8,7 @@
 
 ### Full Stack Developer &nbsp;|&nbsp; Software Engineer
 
-<a href="https://github.com/parety308">
+<a href="https://github.com/parvezhasan54">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=700&height=45&lines=Building+secure%2C+production-ready+web+apps;Next.js+%7C+React+%7C+TypeScript+%7C+Node.js;Express+%7C+Prisma+%7C+PostgreSQL+%7C+MongoDB;Open+to+Junior+%2F+Full+Stack+roles+%F0%9F%9A%80" alt="Typing SVG"/>
 </a>
 
@@ -16,7 +16,7 @@
 
 <img src="https://img.shields.io/badge/Status-Open%20to%20Work-2EA043?style=flat-square&logo=statuspage&logoColor=white"/>
 <img src="https://img.shields.io/badge/Location-Chattogram%2C%20Bangladesh-F85149?style=flat-square&logo=googlemaps&logoColor=white"/>
-<img src="https://komarev.com/ghpvc/?username=parety308&label=Profile+Views&color=58A6FF&style=flat-square" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=parvezhasan54&label=Profile+Views&color=58A6FF&style=flat-square" alt="Profile Views"/>
 
 <br/><br/>
 
@@ -85,7 +85,7 @@ I'm currently looking for a **Junior / Entry-Level Full Stack Developer** role.
 
 <div align="center">
 
-<a href="https://github.com/parety308"><img src="https://img.shields.io/badge/GitHub-parety308-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/parvezhasan54"><img src="https://img.shields.io/badge/GitHub-parvezhasan54-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/mdparvezhasan"><img src="https://img.shields.io/badge/LinkedIn-mdparvezhasan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:md.parvez.hasan.dev@gmail.com"><img src="https://img.shields.io/badge/Email-md.parvez.hasan.dev@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://portfolio-sandy-eight-rzxhn4f702.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-00C7B7?style=for-the-badge&logo=vercel&logoColor=white"/></a>
@@ -99,12 +99,12 @@ I'm currently looking for a **Junior / Entry-Level Full Stack Developer** role.
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=parety308&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="GitHub stats: contributions"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parety308&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF" alt="Most used languages"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=parvezhasan54&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="GitHub stats: contributions"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parvezhasan54&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF" alt="Most used languages"/>
 
-<img src="https://streak-stats.demolab.com/?user=parety308&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="Contribution streak"/>
+<img src="https://streak-stats.demolab.com/?user=parvezhasan54&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="Contribution streak"/>
 
-<img src="https://ghchart.rshah.org/58A6FF/parety308" alt="Contribution heatmap"/>
+<img src="https://ghchart.rshah.org/58A6FF/parvezhasan54" alt="Contribution heatmap"/>
 
 </div>
 
@@ -116,20 +116,20 @@ I'm currently looking for a **Junior / Entry-Level Full Stack Developer** role.
 
 | Project | What it solves | Core stack | Links |
 | :--- | :--- | :--- | :--- |
-| **🏙️ Nagar Sheba** <br/> <sub>Flagship</sub> | Citizens report city problems and track them to resolution, with SLA enforcement and online payments | Next.js 16 · TypeScript · TanStack Query · Express 5 · Prisma | [Live](https://nagar-sheba-online.onrender.com) · [Repo](https://github.com/parety308/Nagar-Sheba-Frontend) |
-| **🏠 RentNest** | Tenants and landlords connect through a rental marketplace with secure Stripe payments | Next.js · TypeScript · Tailwind · Stripe | [Live](https://rentnest-a5.onrender.com) · [Repo](https://github.com/parety308/RentNest_A5) |
-| **🚚 ZapShift** | Parcel booking, delivery tracking and rider coordination for a courier service | React · Tailwind · DaisyUI · Firebase · JWT | [Live](https://simple-firebase-auth-c54cc.web.app) · [Repo](https://github.com/parety308/Zap_Shift_Client) |
-| **🍲 LocalChefBazaar** | Home chefs sell meals to customers with ordering and reviews | React · Tailwind · DaisyUI · Firebase · JWT | [Live](https://local-chef-bazaar-online.netlify.app) · [Repo](https://github.com/parety308/Local_Chef_Bazaar_Client) |
+| **🏙️ Nagar Sheba** <br/> <sub>Flagship</sub> | Citizens report city problems and track them to resolution, with SLA enforcement and online payments | Next.js 16 · TypeScript · TanStack Query · Express 5 · Prisma | [Live](https://nagar-sheba-online.onrender.com) · [Repo](https://github.com/parvezhasan54/Nagar-Sheba-Frontend) |
+| **🏠 RentNest** | Tenants and landlords connect through a rental marketplace with secure Stripe payments | Next.js · TypeScript · Tailwind · Stripe | [Live](https://rentnest-a5.onrender.com) · [Repo](https://github.com/parvezhasan54/RentNest_A5) |
+| **🚚 ZapShift** | Parcel booking, delivery tracking and rider coordination for a courier service | React · Tailwind · DaisyUI · Firebase · JWT | [Live](https://simple-firebase-auth-c54cc.web.app) · [Repo](https://github.com/parvezhasan54/Zap_Shift_Client) |
+| **🍲 LocalChefBazaar** | Home chefs sell meals to customers with ordering and reviews | React · Tailwind · DaisyUI · Firebase · JWT | [Live](https://local-chef-bazaar-online.netlify.app) · [Repo](https://github.com/parvezhasan54/Local_Chef_Bazaar_Client) |
 
 </div>
 
 <div align="center">
 
-<a href="https://github.com/parety308/Nagar-Sheba-Frontend"><img src="https://github-readme-stats.vercel.app/api/pin/?username=parety308&repo=Nagar-Sheba-Frontend&theme=tokyonight&hide_border=true&bg_color=0D1117"/></a>
-<a href="https://github.com/parety308/RentNest_A5"><img src="https://github-readme-stats.vercel.app/api/pin/?username=parety308&repo=RentNest_A5&theme=tokyonight&hide_border=true&bg_color=0D1117"/></a>
+<a href="https://github.com/parvezhasan54/Nagar-Sheba-Frontend"><img src="https://github-readme-stats.vercel.app/api/pin/?username=parvezhasan54&repo=Nagar-Sheba-Frontend&theme=tokyonight&hide_border=true&bg_color=0D1117"/></a>
+<a href="https://github.com/parvezhasan54/RentNest_A5"><img src="https://github-readme-stats.vercel.app/api/pin/?username=parvezhasan54&repo=RentNest_A5&theme=tokyonight&hide_border=true&bg_color=0D1117"/></a>
 <br/>
-<a href="https://github.com/parety308/Zap_Shift_Client"><img src="https://github-readme-stats.vercel.app/api/pin/?username=parety308&repo=Zap_Shift_Client&theme=tokyonight&hide_border=true&bg_color=0D1117"/></a>
-<a href="https://github.com/parety308/Local_Chef_Bazaar_Client"><img src="https://github-readme-stats.vercel.app/api/pin/?username=parety308&repo=Local_Chef_Bazaar_Client&theme=tokyonight&hide_border=true&bg_color=0D1117"/></a>
+<a href="https://github.com/parvezhasan54/Zap_Shift_Client"><img src="https://github-readme-stats.vercel.app/api/pin/?username=parvezhasan54&repo=Zap_Shift_Client&theme=tokyonight&hide_border=true&bg_color=0D1117"/></a>
+<a href="https://github.com/parvezhasan54/Local_Chef_Bazaar_Client"><img src="https://github-readme-stats.vercel.app/api/pin/?username=parvezhasan54&repo=Local_Chef_Bazaar_Client&theme=tokyonight&hide_border=true&bg_color=0D1117"/></a>
 
 </div>
 
@@ -168,8 +168,8 @@ I'm currently looking for a **Junior / Entry-Level Full Stack Developer** role.
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-46E3B7?style=for-the-badge)](https://nagar-sheba-online.onrender.com)
 [![Live API](https://img.shields.io/badge/⚙️_Live_API-1F6FEB?style=for-the-badge)](https://nagar-sheba.onrender.com)
-[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/Nagar-Sheba-Frontend)
-[![Backend](https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/Nagar-Sheba)
+[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parvezhasan54/Nagar-Sheba-Frontend)
+[![Backend](https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github)](https://github.com/parvezhasan54/Nagar-Sheba)
 
 <details>
 <summary><b>🧩 View architecture and request lifecycle</b></summary>
@@ -230,8 +230,8 @@ stateDiagram-v2
 </table>
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-46E3B7?style=for-the-badge)](https://rentnest-a5.onrender.com)
-[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/RentNest_A5)
-[![Backend](https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/RentNest_A4)
+[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parvezhasan54/RentNest_A5)
+[![Backend](https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github)](https://github.com/parvezhasan54/RentNest_A4)
 
 <br/>
 
@@ -263,8 +263,8 @@ stateDiagram-v2
 </table>
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-46E3B7?style=for-the-badge)](https://simple-firebase-auth-c54cc.web.app)
-[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/Zap_Shift_Client)
-[![Backend](https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/Zap_Shift_Server)
+[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parvezhasan54/Zap_Shift_Client)
+[![Backend](https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github)](https://github.com/parvezhasan54/Zap_Shift_Server)
 
 <br/>
 
@@ -277,7 +277,7 @@ Customers browse daily meals, place orders, save favorites and leave reviews. Ch
 **Highlights:** Firebase Authentication with a JWT-secured API (Axios interceptor for token handling) · role-based routes for User, Chef and Admin · admin approval flow for role changes · paginated and sortable meal catalog.
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-46E3B7?style=for-the-badge)](https://local-chef-bazaar-online.netlify.app)
-[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parety308/Local_Chef_Bazaar_Client)
+[![Frontend](https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github)](https://github.com/parvezhasan54/Local_Chef_Bazaar_Client)
 
 <br/>
 
