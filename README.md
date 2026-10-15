@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./Banner.png" alt="Md Parvez Hasan - Full Stack Developer" width="100%"/>
+<img src="./Banner-1.png" alt="Md Parvez Hasan - Full Stack Developer" width="100%"/>
 
 <br/>
 
