@@ -6,7 +6,7 @@
 
 # Md Parvez Hasan
 
-### Full Stack Developer &nbsp;|&nbsp; Software Engineer
+### Full Stack Developer &nbsp;
 
 <a href="https://github.com/parety308">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=700&height=45&lines=Building+secure%2C+production-ready+web+apps;Next.js+%7C+React+%7C+TypeScript+%7C+Node.js;Express+%7C+Prisma+%7C+PostgreSQL+%7C+MongoDB;Open+to+Junior+%2F+Full+Stack+roles+%F0%9F%9A%80" alt="Typing SVG"/>
